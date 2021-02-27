@@ -1,6 +1,4 @@
-package com.epam.automation.java_collections.sweet;
-
-import com.epam.automation.java_collections.type.CandyType;
+package com.epam.automation.java_collections.main_task.sweet;
 
 public class Sweet implements Comparable<Sweet> {
     private String name;

@@ -1,7 +1,7 @@
-package com.epam.automation.java_collections;
+package com.epam.automation.java_collections.main_task;
 
 
-import com.epam.automation.java_collections.sweet.Sweet;
+import com.epam.automation.java_collections.main_task.sweet.Sweet;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.epam.automation.java_collections.sweet;
+package com.epam.automation.java_collections.main_task.sweet;
 
-import com.epam.automation.java_collections.type.ChocolateType;
+import com.epam.automation.java_collections.main_task.type.ChocolateType;
 
 public class Chocolate extends Sweet {
   private ChocolateType type;

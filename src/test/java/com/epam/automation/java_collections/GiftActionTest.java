@@ -1,8 +1,10 @@
 package com.epam.automation.java_collections;
 
-import com.epam.automation.java_collections.sweet.Candy;
-import com.epam.automation.java_collections.sweet.Sweet;
-import com.epam.automation.java_collections.type.CandyType;
+import com.epam.automation.java_collections.main_task.Gift;
+import com.epam.automation.java_collections.main_task.GiftAction;
+import com.epam.automation.java_collections.main_task.sweet.Candy;
+import com.epam.automation.java_collections.main_task.sweet.Sweet;
+import com.epam.automation.java_collections.main_task.type.CandyType;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.testng.Assert;
@@ -28,7 +30,7 @@ public class GiftActionTest {
     @Contract(" -> new")
     @DataProvider(name = "dataForTestMakeGift")
     public static Object[][] dataForTestMakeGift() {
-        return new Object[][]{{new Gift (new Candy[]{new Candy ("Kaplya", 22, 32, 11, CandyType.TOFFEE), new Candy ("Morozko", 31, 45, 10, CandyType.CARAMEL)}), 77},
+        return new Object[][]{{new Gift(new Candy[]{new Candy ("Kaplya", 22, 32, 11, CandyType.TOFFEE), new Candy ("Morozko", 31, 45, 10, CandyType.CARAMEL)}), 77},
                 {new Gift (new Candy[]{new Candy ("Chups", 12, 10, 9, CandyType.LOLLIPOP)}), 10}};
     }
 

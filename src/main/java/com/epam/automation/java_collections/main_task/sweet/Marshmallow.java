@@ -1,6 +1,6 @@
-package com.epam.automation.java_collections.sweet;
+package com.epam.automation.java_collections.main_task.sweet;
 
-import com.epam.automation.java_collections.type.MarshmallowType;
+import com.epam.automation.java_collections.main_task.type.MarshmallowType;
 
 public class Marshmallow extends Sweet {
     private MarshmallowType type;

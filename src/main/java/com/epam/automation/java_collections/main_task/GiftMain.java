@@ -1,10 +1,10 @@
-package com.epam.automation.java_collections;
+package com.epam.automation.java_collections.main_task;
 
-import com.epam.automation.java_collections.reader.Reader;
-import com.epam.automation.java_collections.sweet.Candy;
-import com.epam.automation.java_collections.sweet.Sweet;
-import com.epam.automation.java_collections.type.CandyType;
-import com.epam.automation.java_collections.writer.Writer;
+import com.epam.automation.java_collections.main_task.reader.Reader;
+import com.epam.automation.java_collections.main_task.sweet.Candy;
+import com.epam.automation.java_collections.main_task.sweet.Sweet;
+import com.epam.automation.java_collections.main_task.type.CandyType;
+import com.epam.automation.java_collections.main_task.writer.Writer;
 
 import java.util.ArrayList;
 import java.util.List;

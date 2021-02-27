@@ -1,8 +1,7 @@
-package com.epam.automation.java_collections;
+package com.epam.automation.java_collections.main_task;
 
 
-import com.epam.automation.java_collections.exception.EmptyListException;
-import com.epam.automation.java_collections.sweet.Sweet;
+import com.epam.automation.java_collections.main_task.sweet.Sweet;
 
 public class GiftAction {
 
@@ -16,7 +15,7 @@ public class GiftAction {
         return giftWeight;
     }
 
-    public Sweet findSweetInInterval(Gift gift, int min, int max) throws EmptyListException {
+    public Sweet findSweetInInterval(Gift gift, int min, int max) {
         Sweet findSweet = new Sweet();
         if (gift.getSweetList() != null) {
             for (int i = 0; i < gift.getSweetList().size(); i++) {
