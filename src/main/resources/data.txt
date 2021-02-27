@@ -1,0 +1,1 @@
+Gift{sweetList=Sweet{name='Morozko', calories=31, weight=45, sugarContent=10}, Sweet{name='Kaplya', calories=22, weight=32, sugarContent=11}}
